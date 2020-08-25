@@ -1,0 +1,173 @@
+.principal{
+    width: 100%;
+    margin: auto;
+    background-color: rgb(59, 168, 248);
+}
+
+.gallery{
+    width: 100%;
+    height: 300px;    
+    background-image:url(../img/Teste2.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: auto;
+    display: block;
+    padding-top: 50px;
+}
+
+.foto{
+   width: 40%;
+   margin: auto;
+}
+
+.foto nav{
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    display: block;
+    margin-bottom: 30px;
+    background-color: white;
+    border-radius: 50%;
+    border: solid 1px black;
+}
+
+.foto nav img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.botao{
+    width: 60%;
+    margin: auto;
+}
+
+.botao button{
+    width: 30%;
+    margin: auto;
+    cursor: pointer;
+    text-align: center;
+    font-family: Arial,sans-serif,serif;
+    background-color:  rgb(59, 168, 248);
+    color: white;
+    padding: 5px;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    display: block;
+    position: relative;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    height: 100%;
+    display: block;
+    padding-top: 30px;
+}
+
+.informacao{
+    width: 80%;
+    height: 100%;
+    display: block;
+    margin: auto;
+    background-color: white;
+    
+}
+
+.informacao table tr td{
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+
+.update{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+
+#btnUpdate{
+    width: 40%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: white;
+    color: rgb(59, 168, 248);
+    padding: 5px;
+    display: block;
+    
+}
+
+@media screen and (max-width:40.625em){
+.botao{
+    width: 80%;
+    margin: auto;
+}
+
+.botao button{
+    width: 40%;
+    margin: auto;
+}
+    
+main{
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    display: block;
+    padding-top: 30px;
+}
+
+.informacao{
+    width: 100%;
+    height: 100%;
+}
+    
+.update{
+    width: 100%;
+    margin: auto;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+
+#btnUpdate{
+    width: 40%;
+    margin: auto;    
+}
+}
+@media screen and (max-width:28.125em){
+.botao{
+    width: 100%;
+    margin: auto;
+}
+
+.botao button{
+    width: 40%;
+    margin: auto;
+}
+    
+main{
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    display: block;
+    padding-top: 30px;
+}
+
+.informacao{
+    width: 100%;
+    height: 100%;
+}
+    
+.update{
+    width: 100%;
+    margin: auto;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+#btnUpdate{
+    width: 60%;
+    margin: auto;    
+}
+}
